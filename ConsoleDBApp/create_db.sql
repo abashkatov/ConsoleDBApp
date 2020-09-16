@@ -1,0 +1,9 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "app_persons" (
+	"id"	INTEGER NOT NULL,
+	"first_name"	TEXT NOT NULL,
+	"last_name"	TEXT NOT NULL,
+	"phone"	TEXT NOT NULL,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+COMMIT;
